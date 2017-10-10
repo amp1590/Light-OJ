@@ -1,0 +1,1172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0059)https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Light OJ 1090 – Trailing Zeroes (II) (nCr * N^p এর শেষে শূন্য সংখ্যা) | শিখরের ব্লগ</title>
+		<link rel="pingback" href="https://shikhorroy.wordpress.com/xmlrpc.php">
+		<link rel="alternate" type="application/rss+xml" title="শিখরের ব্লগ » Feed" href="https://shikhorroy.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="শিখরের ব্লগ » Comments Feed" href="https://shikhorroy.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="শিখরের ব্লগ » Light OJ 1090 – Trailing Zeroes (II) (nCr * N^p এর শেষে শূন্য সংখ্যা) Comments Feed" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/feed/">
+	<script async="" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/beacon.js"></script><script id="facebook-jssdk" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/sdk.js"></script><script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel="stylesheet" id="all-css-0" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-1" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/print.css" type="text/css" media="print">
+<!--[if IE]>
+<link rel='stylesheet' id='notepad-ie-css'  href='https://s0.wp.com/wp-content/themes/pub/notepad/ie.css?m=1273001598h&#038;ver=4.5.2' type='text/css' media='all' />
+<![endif]-->
+<!--[if lte IE 6]>
+<link rel='stylesheet' id='notepad-ie6-css'  href='https://s0.wp.com/wp-content/themes/pub/notepad/ie6.css?m=1273001598h&#038;ver=4.5.2' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="all-css-6" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource(1)" type="text/css" media="all">
+<script type="text/javascript" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource(2)"></script><style type="text/css"></style>
+<link rel="stylesheet" id="all-css-0" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/style.css" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://shikhorroy.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="আবারও সাইভ মেথড (হাউ টু কোড)" href="https://shikhorroy.wordpress.com/2013/11/12/wp-mep2mliv-5r/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/">
+<link rel="shortlink" href="http://wp.me/p2mlIV-6G">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fshikhorroy.wordpress.com%2F2014%2F02%2F22%2Fwp-mep2mliv-6g%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fshikhorroy.wordpress.com%2F2014%2F02%2F22%2Fwp-mep2mliv-6g%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Light OJ 1090 – Trailing Zeroes (II) (nCr * N^p এর শেষে শূন্য সংখ্যা)">
+<meta property="og:url" content="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/">
+<meta property="og:description" content="এর আগে একটি সংখ্যার ফ্যাক্টরিয়ালের শেষে কতগুলো শুন্য আছে তা কিভাবে কাউন্ট করে বের করা যায় তা নিয়ে লিখেছিলাম। এরই ধারাবাহিকতায় আজকের এই পোস্টঃ Light OJ এর এই প্রবলেমকে(1090 – Trailing Zeroes (…">
+<meta property="article:published_time" content="2014-02-22T10:22:23+00:00">
+<meta property="article:modified_time" content="2014-02-23T10:51:24+00:00">
+<meta property="og:site_name" content="শিখরের ব্লগ">
+<meta property="og:image" content="https://shikhorroy.files.wordpress.com/2014/02/trird-part.png">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:image" content="https://shikhorroy.files.wordpress.com/2014/02/ncr.png?w=240">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://shikhorroy.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://shikhorroy.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://shikhorroy.wordpress.com/osd.xml" title="শিখরের ব্লগ">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+		<style id="wpcom-hotfix-masterbar-style">
+			@media screen and (min-width: 783px) {
+				#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+					margin-top: 5px;
+				}
+			}
+		</style>
+		<meta name="application-name" content="শিখরের ব্লগ"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content=".....হউক না অল্প, কিন্তু যেটুকু জানি সেটুকুতো বিশুদ্ধ!"><meta name="msapplication-task" content="name=Subscribe;action-uri=https://shikhorroy.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Read Freshly Pressed;action-uri=http://wordpress.com/#fresh;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="Light OJ 1090 – Trailing Zeroes (II) (nCr * N^p এর শেষে শূন্য সংখ্যা) | শিখরের ব্লগ on WordPress.com">
+<meta name="description" content="এর আগে একটি সংখ্যার ফ্যাক্টরিয়ালের শেষে কতগুলো শুন্য আছে তা কিভাবে কাউন্ট করে বের করা যায় তা নিয়ে লিখেছিলাম। এরই ধারাবাহিকতায় আজকের এই পোস্টঃ Light OJ এর এই প্রবলেমকে(1090 - Trailing Zeroes (II)) আমরা তিনটি পার্টে বিভক্ত করে সল্ভ করার চেস্টা করব। প্রথম পার্টঃ nCr এর জন্য ক্যালকুলেশন, দ্বিতীয় পার্টঃ N^p এর জন্য ক্যালকুলেশন। তৃতীয়…">
+<link rel="amphtml" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/amp/"><style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/shCore.css"><link rel="stylesheet" type="text/css" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/shThemeDefault.css"><style type="text/css" id="syntaxhighlighteranchor"></style>
+	<script charset="utf-8" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/rate.php"></script><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/services.css"><style type="text/css" id="pd_popup_holder_style_6590069_post_414">#pd_popup_holder_6590069_post_414 { position:absolute; display:none; width:350px; height:auto; top:0px; left:0px; z-index:10000; border:solid 1px #CCC; background-color:white; padding:0px 15px;font-family:Arial,Sans;box-shadow: -10px 10px 20px rgba(0, 0, 0, .5);-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, .25);-moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, .25); }</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+	<body class="single single-post postid-414 single-format-standard logged-in admin-bar no-customize-support mp6 customizer-styles-applied highlander-enabled highlander-light">
+		<div id="pagewrapper">
+				<div id="header">
+			<h1 id="logo">
+				<a href="https://shikhorroy.wordpress.com/">শিখরের ব্লগ</a>
+			</h1>
+			<p class="description">…..হউক না অল্প, কিন্তু যেটুকু জানি সেটুকুতো বিশুদ্ধ!</p>
+
+			<p class="socialmedia">
+				
+				
+				
+				
+							</p><!-- socialmedia -->
+
+			<div class="menu-%e0%a6%ae%e0%a7%82%e0%a6%b2%e0%a6%aa%e0%a6%be%e0%a6%a4%e0%a6%be-container"><ul id="menu-%e0%a6%ae%e0%a7%82%e0%a6%b2%e0%a6%aa%e0%a6%be%e0%a6%a4%e0%a6%be" class="menu"><li id="menu-item-57" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-57"><a href="https://shikhorroy.wordpress.com/">মূলপাতা</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://shikhorroy.wordpress.com/wp-mep2mliv-z/">আমার সম্পর্কে</a></li>
+<li id="menu-item-293" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-293"><a href="https://shikhorroy.wordpress.com/category/%e0%a6%97%e0%a6%a8%e0%a6%bf%e0%a6%a4/">গনিত</a></li>
+<li id="menu-item-292" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-292"><a href="https://shikhorroy.wordpress.com/category/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%82/">প্রোগ্রামিং</a></li>
+</ul></div>
+		</div>
+		<!--/header -->
+
+		
+		<div id="wrapper">
+
+
+	<div id="content">
+
+		<p class="post-nav">
+			<span class="previous">
+				<a href="https://shikhorroy.wordpress.com/2013/11/12/wp-mep2mliv-5r/" rel="prev">আবারও সাইভ মেথড (হাউ টু&nbsp;কোড)</a>			</span>
+			<span class="next">
+							</span>
+		</p>
+
+	
+		<div class="post-414 post type-post status-publish format-standard hentry category-34835072 category-1173732 tag-34835072 tag-1173732 tag-214646867 tag-207350388" id="post-414">
+			<h2 class="post-title">
+				Light OJ 1090 – Trailing Zeroes (II) (nCr * N^p এর শেষে শূন্য&nbsp;সংখ্যা)			</h2>
+			<p class="post-date">
+				February 22, 2014			</p>
+			<p class="post-data">
+				<span class="postauthor">
+					<a href="https://shikhorroy.wordpress.com/" title="Visit শিখর রায়’s website" rel="author external">শিখর রায়</a>				</span>
+				<span class="postcategory">
+					<a href="https://shikhorroy.wordpress.com/category/%e0%a6%97%e0%a6%a8%e0%a6%bf%e0%a6%a4/" rel="category tag">গনিত</a>, <a href="https://shikhorroy.wordpress.com/category/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%82/" rel="category tag">প্রোগ্রামিং</a>				</span>
+				<span class="posttag"><a href="https://shikhorroy.wordpress.com/tag/%e0%a6%97%e0%a6%a8%e0%a6%bf%e0%a6%a4/" rel="tag">গনিত</a>, <a href="https://shikhorroy.wordpress.com/tag/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%82/" rel="tag">প্রোগ্রামিং</a>, <a href="https://shikhorroy.wordpress.com/tag/%e0%a6%b6%e0%a7%82%e0%a6%a8%e0%a7%8d%e0%a6%af-%e0%a6%97%e0%a6%a8%e0%a6%a8%e0%a6%be/" rel="tag">শূন্য গননা</a>, <a href="https://shikhorroy.wordpress.com/tag/%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be-%e0%a6%a4%e0%a6%a4%e0%a7%8d%e0%a6%a4%e0%a7%8d%e0%a6%ac/" rel="tag">সংখ্যা তত্ত্ব</a></span>				<span class="postcomment">
+					<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#comments">1 Comment</a>				</span>
+							</p>
+			<div class="post-content">
+				<p>এর আগে একটি সংখ্যার ফ্যাক্টরিয়ালের শেষে কতগুলো শুন্য আছে তা কিভাবে কাউন্ট করে বের করা যায় তা নিয়ে <a href="https://shikhorroy.wordpress.com/2013/02/11/wp-mep2mliv-28/">লিখেছিলাম</a>। এরই ধারাবাহিকতায় আজকের এই পোস্টঃ</p>
+<p>Light OJ এর এই প্রবলেমকে(<a href="http://lightoj.com/volume_showproblem.php?problem=1090">1090 – Trailing Zeroes (II)</a>) আমরা তিনটি পার্টে বিভক্ত করে সল্ভ করার চেস্টা করব।</p>
+<p>প্রথম পার্টঃ nCr এর জন্য ক্যালকুলেশন,</p>
+<p>দ্বিতীয় পার্টঃ N^p এর জন্য ক্যালকুলেশন।</p>
+<p>তৃতীয় পার্টঃ এই অংশে আমরা প্রথম পার্ট এবং দ্বিতীয় পার্টকে একসাথে করে ফাইনাল রেজাল্ট বের করব।</p>
+<h4><span style="color:#ff0000;"><em><span style="text-decoration:underline;"><strong>প্রথম পার্টঃ&nbsp; nCr এর জন্য ক্যালকুলেশন</strong></span></em></span></h4>
+<p>এই সূত্রটি আমারা সকলেই জানিঃ</p>
+<p><a href="https://shikhorroy.files.wordpress.com/2014/02/ncr.png"><img class="aligncenter size-full wp-image-430" alt="ncr" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/ncr.png"></a>ট্রেইলিং জিরো হিসেব করতে n!, r! এবং (n – r)! এর জন্য কিভাবে 2 এবং 5 কাউন্ট করে বের করব সেটা নিয়ে আলোচনা <a href="https://shikhorroy.wordpress.com/2013/02/11/wp-mep2mliv-28/?relatedposts_exclude=414">এখানে</a>&nbsp; আছে, দেখে নিতে পারো।</p>
+<p>যদি n!, r! এবং (n – r)! এর জন্য (২, ৫) এর সংখ্যা যথাক্রমে (i , j), (k, l), (m, n) হয়, তাহলে nCr এর জন্য (২, ৫) এর সংখ্যা হিসেব করব এভাবেঃ</p>
+<p><a href="https://shikhorroy.files.wordpress.com/2014/02/hiseb.png"><img class="aligncenter size-full wp-image-431" alt="hiseb" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/hiseb.png" width="500" height="208"></a>এখানে একটি বিষয় অবশ্যই খেয়াল রাখতে হবে, আমরা শুধু ২ এবং ৫ নিয়ে কাজ করছি, অন্যান্য গুণনীয়ক ২ এবং ৫ এর সাথে গুন আকারে থাকতে পারে, তবে সেটা নিয়ে আমরা মাথা ঘামাব না।</p>
+<h4><strong><em><span style="text-decoration:underline;"><span style="color:#ff0000;text-decoration:underline;">দ্বিতীয় পার্টঃ N^p এর জন্য ক্যালকুলেশন</span></span></em></strong></h4>
+<p>আমরা জানি “একটি সংখ্যার শেষে যতসংখ্যক শুন্য থাকবে ঐ সংখ্যাটিতে ততসংখ্যক (2 x 5) এর গুনফল উপস্থিত থাকবে।” তাহলে N^p এর ক্ষেত্রে আমরা প্রথমে বের করে নিব N সংখ্যাটিতে কত সংখ্যক (2 x 5) উপস্থিত অর্থাৎ কত সংখ্যক 2 এবং কত সংখ্যক 5 এর গুনফল আকারে সংখ্যাটিকে প্রকাশ করা যায়।</p>
+<p>যদি একটি সংখ্যা N কে x সংখ্যক 2 এবং y সংখ্যক 5 এর গুনফল আকারে প্রকাশ করা যায়(অন্যান্য গুননীয়কও থাকতে পারে), তাহলে N এর শেষে min(x, y) সংখ্যক শুন্য উপস্থিত থাকবে। যদি এই লাইনটি বুঝতে প্রবলেম হয় তাহলে ভয় পাওয়ার কারন নেই, একটু পরেই সবটা ক্লিয়ার হয়ে যাবে।</p>
+<p>ধরি N = 60 তাহলে আমরা N কে এভাবে লিখতে পারিঃ</p>
+<p><a href="https://shikhorroy.files.wordpress.com/2014/02/pic11.png"><img class="aligncenter size-full wp-image-415" alt="pic11" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/pic11.png"></a>এখানে 2 আছে 2 &nbsp;টি 5 আছে 1 টি, সুতরাং,</p>
+<p>(2 x 5) আছে ১ টি = N = 60 = (2 x 5) x 2 x 3 = min(x, y) = min(2, 1) [লক্ষ্যনীয়ঃ 3 কে কনসিডারে আনার প্রয়োজন নেই]।</p>
+<p>আসলে এখানে তেমন কিছুই করছি না। আমরা N এর গুননীয়ক গুলির মধ্যে ২ এবং ৫ কতবার আছে সেটাই বের করছি।<br>
+সুতরাং কত সংখ্যক 2 কিংবা 5 আছে সেটা বের করব এভাবেঃ</p>
+<div><div id="highlighter_260297" class="syntaxhighlighter  cpp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp color1 bold">int</code> <code class="cpp plain">calc_func(</code><code class="cpp color1 bold">int</code> <code class="cpp plain">N, </code><code class="cpp color1 bold">int</code> <code class="cpp plain">x)</code></div><div class="line number2 index1 alt1"><code class="cpp plain">{</code></div><div class="line number3 index2 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">int</code> <code class="cpp plain">counter = 0;</code></div><div class="line number4 index3 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">while</code><code class="cpp plain">(N % x == 0)</code><code class="cpp comments">//x দ্বারা N ভাগ গেলে N এ একটি x আছে</code></div><div class="line number5 index4 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">{</code></div><div class="line number6 index5 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">counter++;</code><code class="cpp comments">// x এর সংখ্যা কাউন্ট হচ্ছে</code></div><div class="line number7 index6 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">N = N / x;</code><code class="cpp comments">// একটি x কাউন্ট হয়ে গেলে x দ্বারা N কে ভাগ করে দিতে হবে</code></div><div class="line number8 index7 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp plain">}</code></div><div class="line number9 index8 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">return</code> <code class="cpp plain">counter;</code></div><div class="line number10 index9 alt1"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div>
+<p>এখানে,</p>
+<div><div id="highlighter_342842" class="syntaxhighlighter  cpp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp color1 bold">int</code> <code class="cpp plain">calc_func(</code><code class="cpp color1 bold">int</code> <code class="cpp plain">N, </code><code class="cpp color1 bold">int</code> <code class="cpp plain">x);</code></div></div></td></tr></tbody></table></div></div>
+<p>এই ফানশনটি আমাদের ক্যাল্কুলেট করে বলে দিবে N এ কতসংখ্যক 2 এবং 5 আছে।</p>
+<p>কত সংখ্যক ২ আছে তা বের করার জন্য ফাংশনটি কল করব এভাবেঃ</p>
+<div><div id="highlighter_48914" class="syntaxhighlighter  cpp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">calc_func(N, 2);</code></div></div></td></tr></tbody></table></div></div>
+<p>আর কত সংখ্যক ৫ আছে তা বের করার জন্য ফাংশনটি কল করব এভাবেঃ</p>
+<div><div id="highlighter_67657" class="syntaxhighlighter  cpp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">calc_func(N, 5);</code></div></div></td></tr></tbody></table></div></div>
+<p>খুব সহজ !!!</p>
+<p>তাহলে যদি x সংখ্যক 2 আর y সংখ্যক 5 পাওয়া যায়, সেক্ষেত্রে আমরা N^p এ মোট 2 এবং 5 পাবো যথাক্রমে px এবং py সংখ্যক। কেননাঃ</p>
+<pre><a href="https://shikhorroy.files.wordpress.com/2014/02/pic13.png"><img class="aligncenter size-full wp-image-424" alt="pic1" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/pic13.png" width="500" height="62"></a></pre>
+<p>এখানে, অন্যান্য গুননীয়কগুলি কনসিডারেশনে আনার দরকার নেই, কারন আমরা শুধু 2 এবং 5 এর সংখ্যা কাউন্ট করব। সুতরাং N^p এর শেষে মোট শুন্য সংখ্যা কাউন্ট করতে হলে মেইন ফাংশনটি দেখতে হবে এরকমঃ</p>
+<div><div id="highlighter_498306" class="syntaxhighlighter  cpp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div><div class="line number2 index1 alt1">2</div><div class="line number3 index2 alt2">3</div><div class="line number4 index3 alt1">4</div><div class="line number5 index4 alt2">5</div><div class="line number6 index5 alt1">6</div><div class="line number7 index6 alt2">7</div><div class="line number8 index7 alt1">8</div><div class="line number9 index8 alt2">9</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp color1 bold">int</code> <code class="cpp plain">main()</code></div><div class="line number2 index1 alt1"><code class="cpp plain">{</code></div><div class="line number3 index2 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">int</code> <code class="cpp plain">N, p;</code></div><div class="line number4 index3 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp functions bold">scanf</code><code class="cpp plain">(</code><code class="cpp string">"%d %d"</code><code class="cpp plain">, &amp;N, &amp;p);</code></div><div class="line number5 index4 alt2">&nbsp;</div><div class="line number6 index5 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">int</code> <code class="cpp plain">count2 = p * calc_func(N, 2);</code></div><div class="line number7 index6 alt2"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp color1 bold">int</code> <code class="cpp plain">count5 = p * calc_func(N, 5);</code></div><div class="line number8 index7 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp functions bold">printf</code><code class="cpp plain">(</code><code class="cpp string">"%d trailing zeros.\n"</code><code class="cpp plain">, min(count2, count5));</code></div><div class="line number9 index8 alt2">&nbsp;</div><div class="line number10 index9 alt1"><code class="cpp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="cpp keyword bold">return</code> <code class="cpp plain">0;</code></div><div class="line number11 index10 alt2"><code class="cpp plain">}</code></div></div></td></tr></tbody></table></div></div>
+<h4><span style="text-decoration:underline;"><span style="color:#ff0000;"><em><strong>তৃতীয় পার্টঃ</strong></em></span></span></h4>
+<p>প্রথম এবং দ্বিতীয় পার্ট থেকে প্রাপ্ত মান হতে আমারা সহযেই nCr * N^p এর জন্য ২ ও ৫ এর সংখ্যা কাউন্ট করে ফেলতে পারবো এভাবেঃ</p>
+<p><a href="https://shikhorroy.files.wordpress.com/2014/02/trird-part.png"><img class="aligncenter size-full wp-image-432" alt="trird part" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/trird-part.png" width="500" height="86"></a>কি, খুব মজার না???</p>
+<p>তাহলে,</p>
+<div><div id="highlighter_337975" class="syntaxhighlighter  cpp"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="cpp plain">nCr x N^p&nbsp; এর শেষে মোট শূন্য সংখ্যা = min(i - k - m + px, j - l - n + py);</code></div></div></td></tr></tbody></table></div></div>
+<p>আমার মনে হয় এই অংশটুকুর কোডিং তোমরা নিজেরাই করে নিতে পারবে, তাই আর কোড করে দিলাম না।</p>
+<p>এবার তাহলে সল্ভ করে ফেলোঃ</p>
+<h5><span style="color:#0000ff;">Light OJ Problems:</span></h5>
+<p><a href="http://www.lightoj.com/volume_showproblem.php?problem=1028">1028 – Trailing Zeroes (I)(ডিভিজর কাউন্টিং প্রবলেম)</a></p>
+<p><a href="http://lightoj.com/volume_showproblem.php?problem=1090">1090 – Trailing Zeroes (II)</a></p>
+<p><a href="http://www.lightoj.com/volume_showproblem.php?problem=1138">1138 – Trailing Zeroes (III)</a></p>
+<h4><em><strong><span style="color:#ff6600;">কৃতজ্ঞতাঃ</span></strong></em></h4>
+<p>একটি ব্যাপার মাথায় রাখতে হবে, যদি শুধুমাত্র N^p (অর্থাৎ nCr গুন আকারে থাকবে না) এর শেষে শুন্য সংখ্যা হিসেব করার দরকার হয় সেক্ষেত্রে,</p>
+<p>N^p এর শেষে শুন্য সংখ্যা = (N এর শেষে শুন্য সংখ্যা) * p</p>
+<p>এভাবে হিসেব করলেই হবে, আলাদা ভাবে ২ এবং ৫ কাউন্ট করার দরকার নেই।</p>
+<p>এই অংশটুকুর আইডিয়াদাতাঃ <a href="https://www.facebook.com/AbuSufianTipu">আবু সুফিয়ান ভাইয়া</a>।</p>
+<p>বিষয়টি আমাকে অবগত করার জন্য উনাকে ধন্যবাদ<img width="16" height="16" class="wp-smiley emoji" draggable="false" alt=":)" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/simple-smile.svg" style="height: 1em; max-height: 1em;"></p>
+<div id="jp-post-flair" class="sharedaddy sd-rating-enabled sd-like-enabled sd-sharing-enabled"><div class="sd-block sd-rating"><h3 class="sd-title">Rate this:</h3><div class="pd-rating" id="pd_rating_holder_6590069_post_414" style="display: inline-block;"><div class="rating-icons" id="pd_rate_6590069_post_414" style="float:left;"><div class="rating-star-icon" onmouseout="PDRTJS_6590069_post_414.rebuild();" onclick="PDRTJS_6590069_post_414.rate(1);" onmouseover="PDRTJS_6590069_post_414.hover(1);" id="PDRTJS_6590069_post_414_stars_1" style="background-size: 32px 48px !important; cursor: pointer; width: 16px; height: 16px; line-height: 16px; background: url(https://polldaddy.com/images/ratings/star-yellow-sml.png) top left; float: left; padding: 0px; margin: 0px; margin-right: 1px;">&nbsp;</div><div class="rating-star-icon" onmouseout="PDRTJS_6590069_post_414.rebuild();" onclick="PDRTJS_6590069_post_414.rate(2);" onmouseover="PDRTJS_6590069_post_414.hover(2);" id="PDRTJS_6590069_post_414_stars_2" style="background-size: 32px 48px !important; cursor: pointer; width: 16px; height: 16px; line-height: 16px; background: url(https://polldaddy.com/images/ratings/star-yellow-sml.png) top left; float: left; padding: 0px; margin: 0px; margin-right: 1px;">&nbsp;</div><div class="rating-star-icon" onmouseout="PDRTJS_6590069_post_414.rebuild();" onclick="PDRTJS_6590069_post_414.rate(3);" onmouseover="PDRTJS_6590069_post_414.hover(3);" id="PDRTJS_6590069_post_414_stars_3" style="background-size: 32px 48px !important; cursor: pointer; width: 16px; height: 16px; line-height: 16px; background: url(https://polldaddy.com/images/ratings/star-yellow-sml.png) top left; float: left; padding: 0px; margin: 0px; margin-right: 1px;">&nbsp;</div><div class="rating-star-icon" onmouseout="PDRTJS_6590069_post_414.rebuild();" onclick="PDRTJS_6590069_post_414.rate(4);" onmouseover="PDRTJS_6590069_post_414.hover(4);" id="PDRTJS_6590069_post_414_stars_4" style="background-size: 32px 48px !important; cursor: pointer; width: 16px; height: 16px; line-height: 16px; background: url(https://polldaddy.com/images/ratings/star-yellow-sml.png) top left; float: left; padding: 0px; margin: 0px; margin-right: 1px;">&nbsp;</div><div class="rating-star-icon" onmouseout="PDRTJS_6590069_post_414.rebuild();" onclick="PDRTJS_6590069_post_414.rate(5);" onmouseover="PDRTJS_6590069_post_414.hover(5);" id="PDRTJS_6590069_post_414_stars_5" style="background-size: 32px 48px !important; cursor: pointer; width: 16px; height: 16px; line-height: 16px; background: url(https://polldaddy.com/images/ratings/star-yellow-sml.png) top left; float: left; padding: 0px; margin: 0px; margin-right: 1px;">&nbsp;</div></div><span style="float:left;">&nbsp;</span><div id="rating_info_6590069_post_414" style="display:block;float:left;background:url(https://polldaddy.com/images/ratings/info.png) no-repeat 3px 2px;width:16px;height:16px;cursor:pointer; null " onclick="javascript:PDRTJS_6590069_post_414.togglePopup();return false;"><span style="display:none;">i</span></div><div class="pd_popup_holder" id="pd_popup_holder_6590069_post_414">&nbsp;</div><div class="rating-msg" id="PDRTJS_6590069_post_414_msg" style="float:left; padding-left: 5px; text-align: left; font:normal normal /16px ; color: #;">1 Vote</div><p style="padding: 0px; margin: 0px; clear: both;"></p></div></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-press-this"><a rel="nofollow" data-shared="" class="share-press-this sd-button share-icon" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/?share=press-this&amp;nb=1" target="_blank" title="Click to Press This!"><span>Press This</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-414" class="share-twitter sd-button share-icon" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-414" class="share-facebook sd-button share-icon" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/?share=facebook&amp;nb=1" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded" id="like-post-wrapper-34879397-414-5764f32c47b8d" data-src="//widgets.wp.com/likes/#blog_id=34879397&amp;post_id=414&amp;origin=shikhorroy.wordpress.com&amp;obj_id=34879397-414-5764f32c47b8d" data-name="like-post-frame-34879397-414-5764f32c47b8d"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px; display: none;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><iframe class="post-likes-widget jetpack-likes-widget" name="like-post-frame-34879397-414-5764f32c47b8d" height="55px" width="100%" frameborder="0" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource.html"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal"><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="157" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://shikhorroy.wordpress.com/2013/02/12/wp-mep2mliv-2x/" title="১০০! এর শেষে কয়টি শূন্যঃ পর্ব ০২
+
+এই পর্বের শুরুতে গত পর্বের প্রশ্নের উত্তর নিয়ে আলোচনা করব। গত পর্বের প্রশ্নটা ছিল এরকম, ৫০০! এর শেষে মোট কতগুলো শূন্য আছে? আমি জানি তোমরা ইতোমধ্যেই উত্তর খুঁজে বের করে ফেলেছ। তারপরেও আমি উত্তরটা বলে দিচ্ছি। আমার সাথে তোমার উত্তরটা মিলিয়ে নাও। ৫০০!-তে, একটি করে পাঁচ আছে মোটঃ ৫০০/৫ = ১০০…" rel="nofollow" data-origin="414" data-position="0">১০০! এর শেষে কয়টি শূন্যঃ পর্ব ০২</a></span><span class="jp-relatedposts-post-context">In "গনিত"</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="166" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://shikhorroy.wordpress.com/2013/02/13/wp-mep2mliv-2g/" title="শূন্য গণনা
+
+কোন সংখ্যার ফ্যাক্টরিয়ালের শেষে মোট কতটি শূন্য আছে তা বের করার কোডঃ খুব সহজ, আমার মনে হয় যে কেউ দেখলেই বুঝে যাবার কথা। অ্যালগরিদমের জন্য দেখ আমারঃ ১০০! এর শেষে কয়টি শূন্যঃ পর্ব ০১ এবং ১০০! এর শেষে কয়টি শূন্যঃ পর্ব ০২ আর প্রাকটিসের জন্য সল্ভ করতে পারোঃ CodeChef Problem:…" rel="nofollow" data-origin="414" data-position="1">শূন্য গণনা</a></span><span class="jp-relatedposts-post-context">In "প্রোগ্রামিং"</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="247" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://shikhorroy.wordpress.com/2013/09/16/wp-mep2mliv-3z/" title="&quot;টাওয়ার অব হ্যানয়&quot; - দ্বিতীয় পর্ব ( রিকার্সিভ অ্যালগরিদম )
+
+কিভাবে ( 2^n – 1 ) এলোঃ এই পর্বে আমরা দেখব কিভাবে টাওয়ার অব হ্যানয় সমাধানের কোড রিকার্শন দিয়ে লিখে ফেলা যায়। রিকার্শনের কথা শুনেই ভয় পাবার কিছু নেই। রিকার্শন সম্পর্কে খুব ভালো জানতে হবে  কিংবা “রিকার্শনের জাহাজ” না হলে এই পোস্টটি পড়া যাবে না এমন টি আগেই ভাববার কোন…" rel="nofollow" data-origin="414" data-position="2">"টাওয়ার অব হ্যানয়" - দ্বিতীয় পর্ব ( রিকার্সিভ অ্যালগরিদম )</a></span><span class="jp-relatedposts-post-context">In "প্রোগ্রামিং"</span></p></div></div></div>			</div>
+					</div>
+		<!--/post -->
+
+		
+<!-- You can start editing here. -->
+
+	<h4 id="comments">
+		1 Comment		<em>(<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#respond">+add yours?</a>)</em>
+	</h4>
+
+	<div class="comment-nav">
+		<span class="previous"></span>
+		<span class="next"></span>
+	</div>
+
+	<ol class="commentlist snap_preview">
+			<li class="comment even thread-even depth-1 highlander-comment" id="comment-55">
+		<p class="comment-author">
+			<img alt="" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/caae55a0a60dce71b4e304cd8f7c9ecd" class="avatar avatar-48 grav-hashed grav-hijack" height="48" width="48" id="grav-caae55a0a60dce71b4e304cd8f7c9ecd-0">			<cite><a href="http://www.facebook.com/100002234550025" rel="external nofollow" class="url">Soummyo Sarkar Avik</a></cite><br>
+			<small>
+				<strong>Nov 06, 2015</strong> @ 09:50:49							</small>
+		</p>
+
+		
+		<div class="commententry" id="comment-55">
+			
+			<p>চমৎকার লিখেছেন ভাইয়া । চালিয়ে যান ।</p>
+		</div>
+
+
+		<p class="reply">
+			<a rel="nofollow" class="comment-reply-link" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/?replytocom=55#respond" onclick="return addComment.moveForm( &quot;commententry-55&quot;, &quot;55&quot;, &quot;respond&quot;, &quot;414&quot; )" aria-label="Reply to Soummyo Sarkar Avik">Reply</a>		</p>
+
+		
+</li><!-- #comment-## -->
+	</ol>
+
+ 
+
+
+				<div id="respond" class="comment-respond js">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="https://shikhorroy.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="cdab7b8535"><input type="hidden" name="_wp_http_referer" value="/2014/02/22/wp-mep2mliv-6g/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="wordpress">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: 19.6px; width: 498px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="Enter your comment here..." placeholder="Enter your comment here..." style="height: 39px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar" style="display: none;">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li style="display:none;">
+				<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li class="selected">
+				<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource(7).html" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service" style="">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/ad516503a11cd5ca435acc9bb6523536" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="text" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/79a85f17fd5c94358c4c006eda9f207f" alt="Gravatar" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="https://1.gravatar.com/avatar/79a85f17fd5c94358c4c006eda9f207f?s=25&amp;d=https%3A%2F%2Fs2.wp.com%2Fwp-content%2Fmu-plugins%2Fhighlander-comments%2Fimages%2Fwplogo.png&amp;r=G">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="102899176">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="845be3c9e4b83095b23fa20d608c715f2667ce48">
+				<p class="comment-form-posting-as pa-wordpress"><strong>arunima1590:</strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( &#39;wordpress&#39; );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/ad516503a11cd5ca435acc9bb6523536" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( &#39;twitter&#39; );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/ad516503a11cd5ca435acc9bb6523536" alt="Facebook photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( &#39;facebook&#39; );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/ad516503a11cd5ca435acc9bb6523536" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( &#39;googleplus&#39; );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="414" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="85e4ddac1b"></p>
+<input type="hidden" name="genseq" value="1466233644">
+<p style="display: none;"></p>				<input type="hidden" id="ak_js" name="ak_js" value="1466233645095"></form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>
+
+		<p class="post-nav">
+			<span class="previous">
+				<a href="https://shikhorroy.wordpress.com/2013/11/12/wp-mep2mliv-5r/" rel="prev">আবারও সাইভ মেথড (হাউ টু&nbsp;কোড)</a>			</span>
+			<span class="next">
+							</span>
+		</p>
+
+	
+
+	</div>
+	<!--/content -->
+
+	<div id="sidebar">
+	
+<div id="search-3" class="widget widget_search"><h4 class="widgettitle">খুঁজুন</h4><form method="get" id="searchform" action="https://shikhorroy.wordpress.com/">
+	<input type="text" value="Search..." name="s" id="s">
+	<input type="hidden" id="searchsubmit">
+</form></div><div id="calendar-4" class="widget widget_calendar"><h4 class="widgettitle">ক্যালেন্ডার</h4><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>February 2014</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Sunday">S</th>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="https://shikhorroy.wordpress.com/2013/11/">« Nov</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="6" class="pad">&nbsp;</td><td>1</td>
+	</tr>
+	<tr>
+		<td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+	</tr>
+	<tr>
+		<td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+	</tr>
+	<tr>
+		<td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td><a href="https://shikhorroy.wordpress.com/2014/02/22/" aria-label="Posts published on February 22, 2014">22</a></td>
+	</tr>
+	<tr>
+		<td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+		<td class="pad" colspan="1">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div><div id="categories-4" class="widget widget_categories"><h4 class="widgettitle">ক্যাটাগরি</h4>		<ul>
+	<li class="cat-item cat-item-34835072"><a href="https://shikhorroy.wordpress.com/category/%e0%a6%97%e0%a6%a8%e0%a6%bf%e0%a6%a4/">গনিত</a> (7)
+</li>
+	<li class="cat-item cat-item-1173732"><a href="https://shikhorroy.wordpress.com/category/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%82/">প্রোগ্রামিং</a> (6)
+</li>
+		</ul>
+</div>		<div id="recent-posts-3" class="widget widget_recent_entries">		<h4 class="widgettitle">সর্বশেষ পোস্ট</h4>		<ul>
+					<li>
+				<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/">Light OJ 1090 – Trailing Zeroes (II) (nCr * N^p এর শেষে শূন্য&nbsp;সংখ্যা)</a>
+							<span class="post-date">February 22, 2014</span>
+						</li>
+					<li>
+				<a href="https://shikhorroy.wordpress.com/2013/11/12/wp-mep2mliv-5r/">আবারও সাইভ মেথড (হাউ টু&nbsp;কোড)</a>
+							<span class="post-date">November 12, 2013</span>
+						</li>
+				</ul>
+		</div>		<div id="top-posts-2" class="widget widget_top-posts"><h4 class="widgettitle">টপ পোস্ট এবং পেজ</h4><ul>				<li>
+										<a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/" class="bump-view" data-bump-view="tp">
+						Light OJ 1090 - Trailing Zeroes (II) (nCr * N^p এর শেষে শূন্য সংখ্যা)					</a>
+									</li>
+			</ul></div><div id="archives-2" class="widget widget_archive"><h4 class="widgettitle">পোস্ট গনক</h4>		<ul>
+			<li><a href="https://shikhorroy.wordpress.com/2014/02/">February 2014</a>&nbsp;(1)</li>
+	<li><a href="https://shikhorroy.wordpress.com/2013/11/">November 2013</a>&nbsp;(1)</li>
+	<li><a href="https://shikhorroy.wordpress.com/2013/10/">October 2013</a>&nbsp;(2)</li>
+	<li><a href="https://shikhorroy.wordpress.com/2013/09/">September 2013</a>&nbsp;(1)</li>
+	<li><a href="https://shikhorroy.wordpress.com/2013/08/">August 2013</a>&nbsp;(1)</li>
+	<li><a href="https://shikhorroy.wordpress.com/2013/04/">April 2013</a>&nbsp;(1)</li>
+	<li><a href="https://shikhorroy.wordpress.com/2013/02/">February 2013</a>&nbsp;(3)</li>
+	<li><a href="https://shikhorroy.wordpress.com/2013/01/">January 2013</a>&nbsp;(2)</li>
+		</ul>
+		</div><div id="wp_tag_cloud-2" class="widget wp_widget_tag_cloud"><h4 class="widgettitle">ট্যাগ মেঘমালা</h4><div style="overflow:hidden"><a href="https://shikhorroy.wordpress.com/tag/%e0%a6%87%e0%a6%b0%e0%a6%be%e0%a6%9f%e0%a7%8b%e0%a6%b8%e0%a7%8d%e0%a6%a5%e0%a6%bf%e0%a6%a8%e0%a6%bf%e0%a6%b8/" class="tag-link-195368203 tag-link-position-1" title="3 topics" style="font-size: 14.461538461538pt;">ইরাটোস্থিনিস</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%95%e0%a7%8b%e0%a6%a1%e0%a6%bf%e0%a6%82/" class="tag-link-32911929 tag-link-position-2" title="3 topics" style="font-size: 14.461538461538pt;">কোডিং</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%97%e0%a6%a8%e0%a6%bf%e0%a6%a4/" class="tag-link-34835072 tag-link-position-3" title="8 topics" style="font-size: 22pt;">গনিত</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%aa%e0%a7%83%e0%a6%a5%e0%a6%bf%e0%a6%ac%e0%a7%80%e0%a6%b0-%e0%a6%aa%e0%a6%b0%e0%a6%bf%e0%a6%a7%e0%a7%80/" class="tag-link-195368221 tag-link-position-4" title="1 topic" style="font-size: 8pt;">পৃথিবীর পরিধী</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%87%e0%a6%ae-%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be/" class="tag-link-195368184 tag-link-position-5" title="2 topics" style="font-size: 11.876923076923pt;">প্রাইম সংখ্যা</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a7%8b%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%82/" class="tag-link-1173732 tag-link-position-6" title="5 topics" style="font-size: 18.338461538462pt;">প্রোগ্রামিং</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%ab%e0%a6%bf%e0%a6%ac%e0%a7%8b%e0%a6%a8%e0%a6%be%e0%a6%9a%e0%a7%8d%e0%a6%9a%e0%a6%bf/" class="tag-link-198481244 tag-link-position-7" title="2 topics" style="font-size: 11.876923076923pt;">ফিবোনাচ্চি</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%b6%e0%a7%82%e0%a6%a8%e0%a7%8d%e0%a6%af-%e0%a6%97%e0%a6%a8%e0%a6%a8%e0%a6%be/" class="tag-link-214646867 tag-link-position-8" title="3 topics" style="font-size: 14.461538461538pt;">শূন্য গননা</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%b8%e0%a6%82%e0%a6%96%e0%a7%8d%e0%a6%af%e0%a6%be-%e0%a6%a4%e0%a6%a4%e0%a7%8d%e0%a6%a4%e0%a7%8d%e0%a6%ac/" class="tag-link-207350388 tag-link-position-9" title="1 topic" style="font-size: 8pt;">সংখ্যা তত্ত্ব</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%ad/" class="tag-link-200561696 tag-link-position-10" title="1 topic" style="font-size: 8pt;">সাইভ</a>
+<a href="https://shikhorroy.wordpress.com/tag/%e0%a6%b9%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%9f-%e0%a6%9f%e0%a6%be%e0%a6%93%e0%a7%9f%e0%a6%be%e0%a6%b0/" class="tag-link-195368038 tag-link-position-11" title="2 topics" style="font-size: 11.876923076923pt;">হ্যানয় টাওয়ার</a></div></div><div id="blog-stats-3" class="widget widget_blog-stats"><h4 class="widgettitle">হিট কাউন্টার</h4>		<ul>
+			<li>10,077 hits</li>
+		</ul>
+		</div><div id="facebook-likebox-3" class="widget widget_facebook_likebox"><h4 class="widgettitle"><a href="https://www.facebook.com/SHIKHORsBLOG">facebook লাইক বক্স</a></h4>		<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/xd_arbiter.html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+		<div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/SHIKHORsBLOG" data-width="200" data-height="432" data-hide-cover="false" data-show-facepile="true" data-show-posts="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=249643311490&amp;container_width=270&amp;height=432&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FSHIKHORsBLOG&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;width=200"><span style="vertical-align: bottom; width: 200px; height: 214px;"><iframe name="f50fb392a54ee8" width="200px" height="432px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/page.html" style="border: none; visibility: visible; width: 200px; height: 214px;" class=""></iframe></span></div>
+		<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+		</div>
+	</div>
+	<!--/sidebar --></div>
+<!--/wrapper -->
+
+<div id="footer">
+	<p class="generator">
+		<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+	</p>
+	<p class="credits">
+		<a href="https://wordpress.com/themes/notepad/" title="Learn more about this theme">The Notepad Theme</a>.	</p>
+</div>
+<!--/footer -->
+
+</div>
+<!--/pagewrapper -->
+
+<script type="text/javascript">
+/* <![CDATA[ */
+if(document.getElementById("s")) {
+	document.getElementById("s").onfocus = function() {
+		if (this.value == "Search...")
+			this.value = "";
+	}
+	document.getElementById("s").onblur = function() {
+		if (this.value == '')
+			this.value = "Search...";
+	}
+}
+/* ]]> */
+</script>
+
+<!-- wpcom_wp_footer -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+		jQuery(document).ready( function($) {
+			function doFollowingHover() {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				$('#wp-admin-bar-follow > a').bind( 'mouseover.unfollow', function() {
+
+					$(this).html( "Unfollow" ).parent( 'li' ).addClass( 'unfollow' );
+				});
+				$('#wp-admin-bar-follow > a').bind( 'mouseout.unfollow', function() {
+					$(this).html( "Following" ).parent( 'li' ).removeClass( 'unfollow' );
+				});
+			}
+			
+			$('#wp-admin-bar-follow > a').click( function( e ) {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				e.preventDefault();
+
+				var link = $( this ), li = $( '#wp-admin-bar-follow' ), timeout = 0;
+
+				if ( li.hasClass( 'subscribed' ) ) {
+					li.removeClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Follow" );
+
+					$('body').append( $( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble' );
+
+					var action = 'ab_unsubscribe_from_blog';
+				} else {
+					li.addClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Following" );
+
+						var left = 131 - link.width();
+						li.append( $( 'div.wpcom-bubble' ).css( { left: '-' + left + 'px' } ) );
+						$( 'div.bubble-txt', 'div.wpcom-bubble' ).html( "New posts from this blog will now appear in <a target=\"_blank\" href=\"http:\/\/wordpress.com\/\">your reader<\/a>. You can manage email alerts from your <a target=\"_blank\" href=\"http:\/\/wordpress.com\/following\/edit\/\">subscriptions page<\/a>." );
+
+						$( 'div.wpcom-bubble.action-bubble' ).addClass( 'fadein' );
+
+						setTimeout( function() {
+							$('body').on( 'click.bubble touchstart.bubble', function(e) {
+								if ( !$(e.target).hasClass('wpcom-bubble') && !$(e.target).parents( 'div.wpcom-bubble' ).length )
+									hideBubble();
+							});
+							setTimeout( hideBubble, 15000 );
+						}, 500 );
+
+					var action = 'ab_subscribe_to_blog';
+					$('#wp-admin-bar-follow > a').bind( 'mouseout.shift', function() {
+						doFollowingHover();
+						$(this).unbind( '.shift' );
+					});
+				}
+
+				var nonce = link.attr( 'href' ).split( '_wpnonce=' );
+				nonce = nonce[1];
+
+				$.post( "https:\/\/shikhorroy.wordpress.com\/wp-admin\/admin-ajax.php", {
+					'action': action,
+					'_wpnonce': nonce,
+					'source': 'admin_bar',
+					'blog_id': 34879397				});
+			});
+		});
+	/* ]]> */
+	</script>
+<script type="text/javascript" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/gprofiles.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":"79a85f17fd5c94358c4c006eda9f207f"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/wpgroho.js"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-caae55a0a60dce71b4e304cd8f7c9ecd">
+	</div>
+	</div>
+
+	<div id="ab-reblog-box">
+		<form action="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/" name="reblog">
+			<textarea id="reblog-content" name="reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="blogid" id="lblogid">Post to</label>
+
+			<select name="to_blog_id" id="reblog-to-blog-id">
+														<option value="109067969">arunima1590</option>
+							</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/" class="cancel">Cancel</a></span>
+				<input type="submit" name="reblog-submit" class="button-primary" id="reblog-submit" value="Reblog Post">
+				<input type="hidden" id="original-blog-id" value="34879397">
+				<input type="hidden" id="original-post-id" value="414">
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="80d4419bf1"><input type="hidden" name="_wp_http_referer" value="/2014/02/22/wp-mep2mliv-6g/">		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+	var wpcom_reblog = {
+		request: false,
+		source: 'toolbar',
+
+		init: function() {
+			// Click reblog button on post
+			jQuery(document).on( 'click', '#wpadminbar .reblog', function(e) {
+				e.preventDefault();
+				wpcom_reblog.source = 'toolbar';
+
+				if ( jQuery( '#wpadminbar #ab-reblog-box' ).is( ':visible' ) ) {
+					wpcom_reblog.cancel_reblog();
+				}
+				else {
+					wpcom_reblog.show_reblog_box();
+				}
+			} );
+
+			// Clicked reblog button on already reblogged post.
+			jQuery(document).on( 'click', '#wpadminbar .reblogged', function(e) {
+				e.preventDefault();
+			});
+
+			// Click cancel reblog button
+			jQuery(document).on( 'click', '#ab-reblog-box a.cancel', function(e) {
+				e.preventDefault();
+				wpcom_reblog.cancel_reblog();
+			});
+
+			// Submit reblog box
+			jQuery(document).on( 'click', '#ab-reblog-box input[type=submit]', function(e) {
+				e.preventDefault();
+				wpcom_reblog.submit_reblog( jQuery(this) );
+			});
+		},
+
+		show_reblog_box: function() {
+			return this.show_reblog_box_here(
+				'#wp-admin-bar-wpr-reblog',
+				'#wpadminbar'
+			);
+		},
+
+		toggle_reblog_box_flair: function( obj_id ) {
+			if ( jQuery( '#jp-post-flair #ab-reblog-box' ).is( ':visible' ) ) {
+				wpcom_reblog.cancel_reblog();
+			}
+			else {
+				wpcom_reblog.show_reblog_box_flair( obj_id );
+			}
+		},
+
+		show_reblog_box_flair: function( obj_id ) {
+			this.source = 'post_flair';
+			this.obj_id = obj_id;
+			return this.show_reblog_box_here(
+				'.post-likes-widget',
+				'body'
+			);
+		},
+
+		show_reblog_box_here: function(anchorId, parentId) {
+			var jq = jQuery,
+			    $anchor = jq( anchorId ),
+			    $parent = jq( parentId ),
+			    $window = jq( window ),
+			    $scroll = jq('html, body'),
+			    $reblog_box = jq( '#ab-reblog-box' ),
+			    offset = $anchor.offset(),
+			    left = offset.left + 'px',
+			    width = '500px',
+			    position,
+			    top;
+
+			if ( $parent.css( 'position' ) === 'fixed' ) {
+				position = 'fixed';
+				top = $parent.position().top + $parent.outerHeight();
+			}
+			else {
+				position = 'absolute';
+				top = offset.top + $anchor.outerHeight() + 'px';
+			}
+			$reblog_box.remove();
+			$parent.append( $reblog_box );
+			$anchor.addClass( 'selected' );
+
+			if ( jq( window ).innerWidth() < offset.left + 500 ) {
+				// Most likely mobile or tablet
+				left = '0px';
+				width = ( jq( window ).innerWidth() - 24 ) + 'px';
+			}
+
+			$reblog_box
+				.find('p.response').remove().end()
+				.find('div.submit, div.submit span.canceltext').show().end()
+				.find('div.submit input[type=submit]').prop('disabled',false).end()
+				.show()
+				.css({
+					top : top,
+					left : left,
+					width : width,
+					position: position,
+					'z-index': 10 // slide under twentyfourteen's fixed-positioned masthead
+				});
+
+			// Ensure we can see the whole reblog box
+			var docViewTop = $window.scrollTop(),
+			    windowHeight = $window.height(),
+			    docViewBottom = docViewTop + windowHeight,
+			    elemTop = $reblog_box.offset().top,
+			    elemHeight = $reblog_box.outerHeight() + 10,
+			    elemBottom = elemTop + elemHeight;
+			if ( docViewTop > elemTop ) {
+				// Need to scroll up
+				// leave 75px for toolbar + Reblog button + margin
+				$scroll.animate({scrollTop: elemTop - 75});
+			}
+			else if ( docViewBottom < elemBottom ) {
+				// Need to scroll down
+				$scroll.animate({scrollTop: elemBottom - windowHeight}, 100);
+			}
+		},
+
+		submit_reblog: function( input ) {
+			var jq = jQuery;
+			var self = this;
+			if ( typeof this.request == 'object' )
+				this.request.abort();
+
+			input.attr( 'value', 'Reblogging...' );
+			input.prop( 'disabled', true );
+
+			jq( '#ab-reblog-box div.submit span.canceltext' ).fadeOut( 150, function() {
+				input.before( '<span class="spinner"></span>' );
+			});
+
+			var note = jq('#ab-reblog-box textarea').val();
+
+			if ( jq('#default-reblog-note').val() == note )
+				note = "";
+
+			this.request = jq.get( '/wp-admin/admin-ajax.php', {
+				'action': 'post_reblog',
+				'original_blog_id': jq('#original-blog-id').val(),
+				'original_post_id': jq('#original-post-id').val(),
+				'blog_id': jq('#ab-reblog-box select').val(),
+				'note': note,
+				'_wpnonce': jq('#ab-reblog-box #_wpnonce').val(),
+				'reblog_source': this.source
+			},
+			function(result, status, jqxhr) {
+				if ( ! ( "type" in result ) ) {
+					alert( "Error: " + jqxhr.responseText );
+				}
+				else if ( "error" == result.type ) {
+					alert( result.message );
+				}
+				else {
+					if ( typeof pm === 'function' ) {
+						console.log(self);
+						pm({
+							target : window.frames['likes-master'],
+							type : 'likesMessage',
+							data : { event: 'didReblog', obj_id: self.obj_id },
+							origin : '*'
+						});
+					}
+
+					jq( '#ab-reblog-box' ).hide();
+					jq( '#wp-admin-bar-wpr-reblog' ).addClass( 'reblogged' ).removeClass( 'reblog' ).find( 'a:first' ).text( 'Reblogged' );
+				}
+			}, 'json' );
+		},
+
+		cancel_reblog: function() {
+			jQuery( '#ab-reblog-box' ).hide();
+			jQuery( '#wp-admin-bar-wpr-reblog' ).removeClass( 'selected' );
+		}
+	};
+
+	wpcom_reblog.init();
+	</script>
+<div id="report-form-window" style="display:none;"></div><script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/shikhorroy.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/shikhorroy.wordpress.com\/wp-login.php?action=logout&_wpnonce=e3235e7c24","homeURL":"https:\/\/shikhorroy.wordpress.com\/","postID":"414","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"1","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource(3)"></script>
+<script type="text/javascript" charset="UTF-8" id="polldaddyRatings"><!--//--><![CDATA[//><!--
+PDRTJS_settings_6590069_post_414={"id":6590069,"unique_id":"wp-post-414","title":"Light%20OJ%201090%20%26%238211%3B%20Trailing%20Zeroes%20%28II%29%20%28nCr%20%2A%20N%5Ep%20%E0%A6%8F%E0%A6%B0%20%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%20%E0%A6%B6%E0%A7%82%E0%A6%A8%E0%A7%8D%E0%A6%AF%26nbsp%3B%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BE%29","permalink":"https:\/\/shikhorroy.wordpress.com\/2014\/02\/22\/wp-mep2mliv-6g\/","item_id":"_post_414"}; if ( typeof PDRTJS_RATING !== 'undefined' ){if ( typeof PDRTJS_6590069_post_414 == 'undefined' ){PDRTJS_6590069_post_414 = new PDRTJS_RATING( PDRTJS_settings_6590069_post_414 );}}
+//--><!]]></script><script type="text/javascript" charset="UTF-8" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/rating.js"></script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/shikhorroy.wordpress.com\/2014\/02\/22\/wp-mep2mliv-6g\/":414};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+		<script type="text/javascript" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/form.js"></script>
+<script type="text/javascript" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource(4)"></script>
+<script type="text/javascript">
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://s0.wp.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?m=1363304414h&amp;ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+<link rel="stylesheet" id="all-css-0" href="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/style(1).css" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpNotesArgs = {"cacheBuster":"20160329","iframeUrl":"https:\/\/widgets.wp.com\/notificationsbeta\/","iframeAppend":"2","iframeScroll":"no","wide":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcom_tos_report_form = {"ajaxurl":"\/wp-admin\/admin-ajax.php","isLoggedoutUser":"","post_ID":"414","current_url":"https:\/\/shikhorroy.wordpress.com\/2014\/02\/22\/wp-mep2mliv-6g","report_this_content":"Report this content"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"34879397","siteName":"\u09b6\u09bf\u0996\u09b0\u09c7\u09b0 \u09ac\u09cd\u09b2\u0997","siteURL":"http:\/\/shikhorroy.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/void.gif' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/notepad","themeURL":"","xhrURL":"https:\/\/shikhorroy.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"e32aa373d4","isSingular":"1","isFolded":"","customizeLink":"https:\/\/shikhorroy.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fshikhorroy.wordpress.com%2F2014%2F02%2F22%2Fwp-mep2mliv-6g%2F","postID":"414","shortlink":"http:\/\/wp.me\/p2mlIV-6G","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/shikhorroy.wordpress.com\/414","i18n":{"view":"View Site","follow":"Follow","following":"Following","edit":"Edit","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Notepad","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage Sites I Follow","viewReader":"View Site in the Reader"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource(5)"></script><div id="actionbar" class="actnbr-pub-notepad actnbr-has-follow actnbr-hidden"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/"><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner"> 			    			New posts from this site will now appear in your <a href="https://wordpress.com/">Reader</a> 			    		</div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename actnbr-hidden"><a href="http://shikhorroy.wordpress.com/"><img alt="" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/void.gif" class="avatar avatar-36" height="36" width="36"> শিখরের ব্লগ</a></li> 				   	<li class="actnbr-folded-customize actnbr-hidden"><a href="https://shikhorroy.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fshikhorroy.wordpress.com%2F2014%2F02%2F22%2Fwp-mep2mliv-6g%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Customize<span></span></span></a></li> 				    <li class="actnbr-folded-follow actnbr-hidden"><a class="actnbr-action actnbr-actn-follow" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/"><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a></li> 				     				    <li class="actnbr-shortlink actnbr-hidden"><a href="http://wp.me/p2mlIV-6G">Copy shortlink</a></li> 				    <li class="flb-report actnbr-hidden"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				    <li class="actnbr-reader actnbr-hidden"><a href="https://wordpress.com/read/blogs/34879397">View Site in the Reader</a></li> 				    <li class="actnbr-subs actnbr-hidden"><a href="https://wordpress.com/following/edit">Manage Sites I Follow</a></li> 				    <li class="actnbr-fold actnbr-hidden"><a href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<iframe src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/master.html" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.async = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/w.js" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['identifyUser', 102899176, 'arunima1590']);
+_tkq.push(['storeContext', {'blog_id':'34879397','blog_tz':'6','user_lang':'en','blog_lang':'en'}]);
+_stq.push(['view', {'blog':'34879397','v':'wpcom','tz':'6','user_id':'102899176','post':'414','subd':'shikhorroy'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1zNDZ8S252Wis9XUQyb3YrcUVIU2R0VH5TdWI5d350TFdaeXR4OFRqPytqcHcxeT1JUVVCclRNUmxkUWhYX21NQTlVaWd0Ql1jS0J2aVQsd05vU1p8LXxaMGUtNVZpR3ZBRzNGWStZUll3Si1nWF9pNj9QMlBoNFhnMWRaW1dqSGktSnc0K1VJNDhlRmVuOFd6Rz0lbUE3VmlTdCVYSUs5Nk9HSXMxR3lCYXFBNX51K2ZjeTJ8T0VCXVhiTisvamVkXW83S0pDMVVSeF1CbG05aTdISktwTXJmMF18TjlTbWgvQk9xLWQ5ZnlZaHcsPUdwXWRdR0ZPPWFnQzJWUVM9UzJ0blRJazNfbX58bnBCd3VddVRhQSZMJnhlNGxXaFR2UE1JW2E4XVUxOGRqLVRISkZQa19vc1tmQ3dwK0RHamVER2xueno='}]);
+_stq.push([ 'clickTrackerInit', '34879397', '414' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+		<div id="wpadminbar" class="ltr">
+							<a class="screen-reader-shortcut" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#wp-toolbar" tabindex="1">Skip to toolbar</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+						<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+			
+		<li id="wp-admin-bar-blog" class="menupop my-sites"><a class="ab-item" aria-haspopup="true" href="https://wordpress.com/stats/arunima1590.wordpress.com">My Site</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-blog-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-blog-info" class="current-site">		<div class="ab-item ab-empty-item"><div class="ab-site-icon"></div><span class="ab-site-title">arunima1590</span><span class="ab-site-description">arunima1590.wordpress.com</span></div>		</li>
+		<li id="wp-admin-bar-new-site"><a class="ab-item" href="https://wordpress.com/start?ref=admin-bar-logged-in">+ Add New WordPress</a>		</li>
+		<li id="wp-admin-bar-blog-stats" class="mb-icon"><a class="ab-item" href="https://wordpress.com/stats/arunima1590.wordpress.com">Stats <img style="width: 95px; margin: 0; float: right;" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/admin-bar-hours-scale-2x.php" alt="Stats" title="Showing site views per hour for the last 48 hours. Click for full Site Stats."></a>		</li>
+		<li id="wp-admin-bar-plan" class="inline-action">		<div class="ab-item ab-empty-item"><a href="https://wordpress.com/plans/arunima1590.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-plan">Plan</a><a href="https://wordpress.com/plans/arunima1590.wordpress.com" class="secondary" id="wp-admin-bar-plan-badge">Free</a></div>		</li>		</ul>
+			<ul id="wp-admin-bar-publish" class="ab-submenu">
+			
+		<li id="wp-admin-bar-publish-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item">Publish</div>		</li>
+		<li id="wp-admin-bar-new-post" class="inline-action">		<div class="ab-item ab-empty-item"><a href="https://wordpress.com/posts/arunima1590.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-edit-post">Blog Posts</a><a href="https://wordpress.com/post/arunima1590.wordpress.com" class="secondary" id="wp-admin-bar-new-post">Add</a></div>		</li>
+		<li id="wp-admin-bar-new-page" class="inline-action">		<div class="ab-item ab-empty-item"><a href="https://wordpress.com/pages/arunima1590.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-edit-page">Pages</a><a href="https://wordpress.com/page/arunima1590.wordpress.com" class="secondary" id="wp-admin-bar-new-page">Add</a></div>		</li>		</ul>
+			<ul id="wp-admin-bar-look-and-feel" class="ab-submenu">
+			
+		<li id="wp-admin-bar-look-and-feel-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item">Personalize</div>		</li>
+		<li id="wp-admin-bar-themes" class="inline-action">		<div class="ab-item ab-empty-item"><a href="https://wordpress.com/design/arunima1590.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-themes">Themes</a><a href="https://arunima1590.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fshikhorroy.wordpress.com%2F2014%2F02%2F22%2Fwp-mep2mliv-6g%2F" class="secondary" id="wp-admin-bar-cmz">Customize</a></div>		</li>
+		<li id="wp-admin-bar-menus" class="mb-icon"><a class="ab-item" href="https://wordpress.com/menus/arunima1590.wordpress.com">Menus</a>		</li>		</ul>
+			<ul id="wp-admin-bar-configuration" class="ab-submenu">
+			
+		<li id="wp-admin-bar-configuration-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item">Configure</div>		</li>
+		<li id="wp-admin-bar-sharing" class="mb-icon"><a class="ab-item" href="https://wordpress.com/sharing/arunima1590.wordpress.com">Sharing</a>		</li>
+		<li id="wp-admin-bar-users-toolbar" class="inline-action">		<div class="ab-item ab-empty-item"><a href="https://wordpress.com/people/team/arunima1590.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-people">People</a><a href="https://arunima1590.wordpress.com/wp-admin/users.php?page=wpcom-invite-users" class="secondary" id="wp-admin-bar-people-add">Add</a></div>		</li>
+		<li id="wp-admin-bar-domains" class="inline-action">		<div class="ab-item ab-empty-item"><a href="https://wordpress.com/domains/arunima1590.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-domains">Domains</a><a href="https://wordpress.com/domains/add/arunima1590.wordpress.com" class="secondary" id="wp-admin-bar-domains-add">Add</a></div>		</li>
+		<li id="wp-admin-bar-blog-settings" class="mb-icon"><a class="ab-item" href="https://wordpress.com/settings/general/arunima1590.wordpress.com">Settings</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-jumptotop-button-menu"><a class="ab-item" href="https://shikhorroy.wordpress.com/2014/02/22/wp-mep2mliv-6g/#"><div id="jumptotop" style="top: 0px;"><span class="noticon noticon-top"></span></div></a>		</li>
+		<li id="wp-admin-bar-newdash" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://wordpress.com/">Reader</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-newdash-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-streams-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item">Streams</div>		</li>
+		<li id="wp-admin-bar-following" class="inline-action">		<div class="ab-item ab-empty-item"><a href="https://wordpress.com/" class="ab-item primary mb-icon" id="wp-admin-bar-followed-sites">Followed Sites</a><a href="https://wordpress.com/following/edit" class="secondary">Manage</a></div>		</li>
+		<li id="wp-admin-bar-discover-discover" class="mb-icon-spacer"><a class="ab-item" href="https://wordpress.com/discover">Discover</a>		</li>
+		<li id="wp-admin-bar-discover-recommended-blogs" class="mb-icon-spacer"><a class="ab-item" href="https://wordpress.com/recommendations">Recommendations</a>		</li>
+		<li id="wp-admin-bar-my-activity-my-likes" class="mb-icon-spacer"><a class="ab-item" href="https://wordpress.com/activities/likes">My Likes</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-admin-bar-likes-widget">		<div class="ab-item ab-empty-item"></div><iframe class="admin-bar-likes-widget jetpack-likes-widget" scrolling="no" frameborder="0" name="admin-bar-likes-widget" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource(8).html"></iframe>		</li>		</ul>
+			<ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+			
+		<li id="wp-admin-bar-notes" class="menupop">		<div class="ab-item ab-empty-item"><span id="wpnt-notes-unread-count" class="wpnt-loading wpn-read"></span><span class="noticon noticon-bell"></span><span class="ab-text">Notifications</span></div><div id="wpnt-notes-panel2" style="display:none" lang="en" dir="ltr" class="wide"><iframe style="" id="wpnt-notes-iframe2" frameborder="0" allowtransparency="true" scrolling="no" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/saved_resource(9).html" class="wide"></iframe></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar no-grav"><a class="ab-item" aria-haspopup="true" href="https://wordpress.com/me/"><img alt="" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/79a85f17fd5c94358c4c006eda9f207f(1)" class="avatar avatar-32" height="32" width="32"><span class="ab-text">Me</span></a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-user-actions" class="ab-submenu">
+			
+		<li id="wp-admin-bar-user-info" class="user-info user-info-item">		<div class="ab-item ab-empty-item" tabindex="-1"><img alt="" src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/79a85f17fd5c94358c4c006eda9f207f(2)" class="avatar avatar-128" height="128" width="128"><span class="display-name">arunima1590</span><a class="username" href="http://gravatar.com/arunima1590">@arunima1590</a><form action="https://shikhorroy.wordpress.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fwordpress.com%2F%3Fapppromo&amp;_wpnonce=e3235e7c24" method="post"><button class="ab-sign-out" type="submit">Sign Out</button></form></div>		</li>
+		<li id="wp-admin-bar-profile-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item">Profile</div>		</li>
+		<li id="wp-admin-bar-my-profile" class="mb-icon"><a class="ab-item" href="https://wordpress.com/me">My Profile</a>		</li>
+		<li id="wp-admin-bar-account-settings" class="mb-icon"><a class="ab-item" href="https://wordpress.com/me/account">Account Settings</a>		</li>
+		<li id="wp-admin-bar-billing" class="mb-icon"><a class="ab-item" href="https://wordpress.com/me/billing">Billing History</a>		</li>
+		<li id="wp-admin-bar-security" class="mb-icon"><a class="ab-item" href="https://wordpress.com/me/security">Security</a>		</li>
+		<li id="wp-admin-bar-notifications" class="mb-icon"><a class="ab-item" href="https://wordpress.com/me/notifications">Notifications</a>		</li>
+		<li id="wp-admin-bar-special-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item">Special</div>		</li>
+		<li id="wp-admin-bar-get-apps" class="mb-icon"><a class="ab-item" href="https://wordpress.com/me/get-apps">Get Apps</a>		</li>
+		<li id="wp-admin-bar-next-steps" class="mb-icon"><a class="ab-item" href="https://wordpress.com/me/next">Next Steps</a>		</li>
+		<li id="wp-admin-bar-help" class="mb-icon"><a class="ab-item" href="https://wordpress.com/help">Help</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-ab-new-post"><a class="ab-item" href="https://wordpress.com/post/arunima1590.wordpress.com"></a>		</li>		</ul>
+				</div>
+							<a class="screen-reader-shortcut" href="https://shikhorroy.wordpress.com/wp-login.php?action=logout&amp;_wpnonce=e3235e7c24">Log Out</a>
+					</div>
+
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var clickDebugLink;
+
+jQuery(document).ready( function($) {
+	var single = true, w = 1000,
+		supe = false;
+
+	$(document.body).load(function(){ $('#wpadminbar img.grav-hashed').removeClass('grav-hashed'); }); // hack to hide the gravatar hovercard
+
+	if ( single && supe )
+		w = 1385;
+	else if ( supe )
+		w = 1200;
+
+	// debug bar extra
+	clickDebugLink = function( parent_id, obj ) {
+
+		$('#'+parent_id).children('div').hide();
+
+		document.getElementById( obj.href.substr( obj.href.indexOf( '#' ) + 1 ) ).style.display = 'block';
+		$( obj.href.substr( obj.href.indexOf( '#' ) ) ).show()
+
+		$(obj).parent().addClass('current').siblings('li').removeClass('current');
+
+		return false;
+	};
+
+	$( '#wpadminbar #wp-admin-bar-shortlink' ).click( function() {
+		$( '#adminbar-shortlink-input' ).select();
+	});
+
+	// skip tap-to-hover on site switcher for mobile
+	if ( 'ontouchstart' in window ) {
+		$('#wp-admin-bar-switch-site').on( 'touchstart', function( event ) {
+			if ( $( window ).width() > 782 ) {
+				return;
+			}
+			event.stopPropagation();
+			$( event.target ).first( 'a' ).click();
+		});
+	}
+
+});
+/* ]]> */
+</script>
+	<div class="wpcom-bubble action-bubble">
+		<div class="bubble-txt"></div>
+	</div>
+	<script type="text/javascript">function hideBubble() { jQuery('body').append( jQuery( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble touchstart.bubble' ); jQuery(document).off( 'scroll.bubble' ); };</script>
+		<script type="text/javascript">
+	jQuery( '#wp-admin-bar-jumptotop-button-menu a' ).click( function( e ) {
+		e.preventDefault();
+		jQuery( 'html, body' ).animate( { scrollTop: 0 }, 'fast' );
+	} );
+	function hideShowTbJumpToTop() {
+		var total_width = 0;
+		// Calculate total width taken by items minus our button to see if it'll
+		// overlap with other toolbar menus.
+		jQuery( '#wp-admin-bar-root-default > li' ).each( function() {
+			var self = jQuery( this );
+			if ( 'wp-admin-bar-jumptotop-button-menu' != self.attr( 'id' ) )
+				total_width += self.width();
+		});
+		if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() >= 350 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) < 0 ) {
+			if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 )
+			   return;
+			jQuery( '#jumptotop' ).animate( { 'top': 0 }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() < 1 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) >= 0 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		}
+	}
+	// handle on page load if auto scrolling to a position
+	hideShowTbJumpToTop();
+	// bind to scrolll event
+	var jumpToTopTimer = null;
+	jQuery( window ).scroll( function() {
+		clearTimeout( jumpToTopTimer );
+		jumpToTopTimer = setTimeout( jumpToTopRefresh, 150 );
+	} );
+	var jumpToTopRefresh = function() {
+		hideShowTbJumpToTop();
+	};
+	</script>
+	<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+<img src="./Light OJ 1090 – Trailing Zeroes (II) (nCr _ N^p এর শেষে শূন্য সংখ্যা) _ শিখরের ব্লগ_files/g.gif" alt=":)" id="wpstats"></body></html>

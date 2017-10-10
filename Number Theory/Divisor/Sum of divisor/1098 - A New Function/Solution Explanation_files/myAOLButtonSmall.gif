@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"  lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"  lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"  lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <title>AOL Reader</title>
+  <link rel="dns-prefetch" href="http://o.aolcdn.com">
+<link rel="dns-prefetch" href="https://s.aolcdn.com">
+<link rel="canonical" href="http://reader.aol.com/">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=no, minimal-ui" >
+<meta name="apple-itunes-app" content="app-id=810170901">
+<meta name="google-play-app" content="app-id=com.aol.aolreader">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AOL Reader">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="description" content="All your favorite websites, in one place.">
+<meta name="keywords" content="RSS, Atom, Feed, RSS Reader, Atom Reader, Feed Reader, AOL, Reader, Content, Subscriptions">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@aolreader">
+<meta property="og:url" content="http://reader.aol.com/"/>
+<meta property="og:type" content="website">
+<meta property="og:description" content="All your favorite websites, in one place.">
+<meta property="og:title" content="AOL Reader">
+<meta property="og:image" content="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/img/logo-light-2x.png?v=747dac07ec1a82f7d010431674615e82" />
+
+<link rel="icon" href="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/img/favicon.ico?v=747dac07ec1a82f7d010431674615e82" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/img/favicon-144.png?v=747dac07ec1a82f7d010431674615e82"/>
+<link rel="apple-touch-icon" sizes="57x57" href="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/img/favicon-57.png?v=747dac07ec1a82f7d010431674615e82"/>
+<link rel="apple-touch-icon" sizes="72x72" href="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/img/favicon-72.png?v=747dac07ec1a82f7d010431674615e82"/>
+<link rel="apple-touch-icon" sizes="114x114" href="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/img/favicon-114.png?v=747dac07ec1a82f7d010431674615e82"/>
+<link rel="apple-touch-icon" sizes="144x144" href="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/img/favicon-144.png?v=747dac07ec1a82f7d010431674615e82"/>
+<link rel="android-touch-icon" href="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/img/favicon-144.png?v=747dac07ec1a82f7d010431674615e82" />
+  <link rel="stylesheet" href="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/css/base.css?v=747dac07ec1a82f7d010431674615e82" />
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js?v=747dac07ec1a82f7d010431674615e82"></script>
+  <![endif]-->
+  <script type="text/javascript" src="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/js/vendor/jquery.js?v=747dac07ec1a82f7d010431674615e82"></script>
+  <script type="text/javascript" src="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/js/vendor/require.js?v=747dac07ec1a82f7d010431674615e82"></script> 
+</head>
+<body>
+<script type="text/javascript">
+bN_cfg = {
+  h: location.hostname
+};
+
+function runOmni()
+{
+  s_265.pfxID="rdr";
+  s_265.pageName=document.title;  // this may change to custom values, depending on tracking requirements
+  s_265.channel="us.aolreader";
+  s_265.linkInternalFilters="javascript:,reader.aol.com";
+  s_265.prop1=""; // where Dept is typically a main navigational area of the site
+  s_265.prop2="";  // where SubDept is typically a secondary navigational area of the site
+  s_265.mmxgo=true; // Enables the comScore 360 beacon if s_265_account contains a global report suite
+  s_265.prop54="no_cms";
+  }
+s_265_account = "aolreader,aolsvc"; /* Use "aolreader,aolsvc" for PROD */
+(function(){
+    var d = document, s = d.createElement('script');
+    s.type = 'text/javascript';
+    s.src = (location.protocol == 'https:' ? 'https://s' : 'http://o') + '.aolcdn.com/os_merge/?file=/aol/beacon.min.js&file=/aol/omniture.min.js';
+    d.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>  <script>
+    var __ASSET_DIR__ = 'http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82',
+        __REV__       = '747dac07ec1a82f7d010431674615e82';
+    function l10n(key){return key;}
+  </script>
+  <div id="app"></div>
+  <script type="text/javascript" src="http://static.reader.aol.com/747dac07ec1a82f7d010431674615e82/js/app/main.js?v=747dac07ec1a82f7d010431674615e82"></script>
+  <script>
+  require([
+    "app"
+  ],
+  function(App) {
+    var root = this
+    , options = {
+        enable_tracking: true,
+        domain    : (location.protocol == 'https:' ? 'https://' : 'http://') + 'reader.aol.com',
+        promocode :'876913'
+    }
+    root["l10n"] = function(key){return key;}
+    root.rdr    = new App(options);
+    root.rdr.initialize();
+  });
+  </script>
+  <a href="https://plus.google.com/115340886091724952739" rel="publisher" style="display:none">Google+</a>
+</body>
+</html>

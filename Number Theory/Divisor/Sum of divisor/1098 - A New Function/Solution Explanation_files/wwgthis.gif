@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<title>Page non trouvée &#8211; </title>
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://www.webwag.com/xmlrpc.php" />
+	
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0" />
+	
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="http://www.webwag.com/wp-content/themes/Cayse/includes/css/ie.css" media="screen"/>
+	<![endif]-->
+
+	<!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script type="text/javascript">
+	document.documentElement.className = 'js';
+	</script>
+	
+	
+	
+	
+
+
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Flux" href="http://www.webwag.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Flux des commentaires" href="http://www.webwag.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.webwag.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='shortcode_styles-css'  href='http://www.webwag.com/wp-content/plugins/PlayneShortcodes/includes/css/elements.css?ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='colio-css'  href='http://www.webwag.com/wp-content/plugins/colio/colio.css?ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='colio-grid-css'  href='http://www.webwag.com/wp-content/plugins/colio/grid.css?ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='colio-white-css'  href='http://www.webwag.com/wp-content/plugins/colio/themes/white.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.webwag.com/wp-content/plugins/colio/themes/fancybox/jquery.fancybox.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='colio-black-css'  href='http://www.webwag.com/wp-content/plugins/colio/themes/black.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.webwag.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.webwag.com/wp-content/themes/Cayse/style.css?ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaqueries_css-css'  href='http://www.webwag.com/wp-content/themes/Cayse/media-queries.css?ver=0.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='webwag_css-css'  href='http://www.webwag.com/wp-content/themes/Cayse/webwag.css?ver=0.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='webwag_queries_css-css'  href='http://www.webwag.com/wp-content/themes/Cayse/ww-queries.css?ver=0.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='google_sourcesanspro-css'  href='http://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400&#038;ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='google_opensans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400&#038;ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='google_montserrat-css'  href='http://fonts.googleapis.com/css?family=Montserrat&#038;ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='google_raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A200%2C400&#038;ver=4.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='metrize_css-css'  href='http://www.webwag.com/wp-content/themes/Cayse/includes/fonts/style.css?ver=0.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='prettyPhoto_css-css'  href='http://www.webwag.com/wp-content/themes/Cayse/includes/lightbox/css/lightbox.css?ver=0.1' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.webwag.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/js/modernizr.custom.js?ver=2.6.2'></script>
+<link rel='https://api.w.org/' href='http://www.webwag.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.webwag.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.webwag.com/wp-includes/wlwmanifest.xml" /> 
+
+<style type="text/css">#colio_home .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_home .colio-inner .colio-button { background-color: #f0bd2f; } #colio_home .colio-inner .colio-view { background-color: #375471; } #colio_home .colio-inner .colio-view { background-color: rgba(55,84,113,0.7); } #colio_home .colio-summary h4 a { color: #343434; } #colio_home .colio-summary h4 a:hover { color: #999; } #colio_home .colio-summary h4 { font-size: 14px; } #colio_home .colio-summary p {color: #999; } #colio_home .colio-summary p {font-size: 12px; } #colio_viewport_home a { color: #f0bd2f; } #colio_viewport_home .colio-navigation a { background-color: #f0bd2f; } #colio_viewport_home .colio-feed li a { background-color: #f0bd2f; } #colio_viewport_home .flex-active { background-color: #f0bd2f; } #colio_all .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_all .colio-inner .colio-button { background-color: #f0bd2f; } #colio_all .colio-inner .colio-view { background-color: #000; } #colio_all .colio-inner .colio-view { background-color: rgba(0,0,0,0.4); } #colio_all .colio-summary h4 a { color: #343434; } #colio_all .colio-summary h4 a:hover { color: #999; } #colio_all .colio-summary h4 { font-size: 14px; } #colio_all .colio-summary p {color: #999; } #colio_all .colio-summary p {font-size: 12px; } #colio_viewport_all a { color: #f0bd2f; } #colio_viewport_all .colio-navigation a { background-color: #f0bd2f; } #colio_viewport_all .colio-feed li a { background-color: #f0bd2f; } #colio_viewport_all .flex-active { background-color: #f0bd2f; } #colio_r_f_rences .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_r_f_rences .colio-inner .colio-button { background-color: #f0bd2f; } #colio_r_f_rences .colio-inner .colio-view { background-color: #375471; } #colio_r_f_rences .colio-inner .colio-view { background-color: rgba(55,84,113,0.7); } #colio_r_f_rences .colio-summary h4 a { color: #343434; } #colio_r_f_rences .colio-summary h4 a:hover { color: #242836; } #colio_r_f_rences .colio-summary h4 { font-size: 14px; } #colio_r_f_rences .colio-summary p {color: #999; } #colio_r_f_rences .colio-summary p {font-size: 12px; } #colio_viewport_r_f_rences a { color: #f0bd2f; } #colio_viewport_r_f_rences .colio-navigation a { background-color: #f0bd2f; } #colio_viewport_r_f_rences .colio-feed li a { background-color: #f0bd2f; } #colio_viewport_r_f_rences .flex-active { background-color: #f0bd2f; } </style>        <style type="text/css"> 
+.container .even, .even .entry-content {background:;}
+.logo a, .socials a {color:;}
+#header h2 {color:;}
+.button, .button.normal, .button.white:hover, #commentform #submit, #sidebar select, .button-down:hover, .button-hover {border: 1px solid #55606e;}
+.button:hover, .button.normal:hover, #commentform #submit:hover, .tagcloud a:hover, .button-down:hover, .button-hover {background: #55606e !important;}
+#header .lead, #footer .columns .lead {color:;}
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active, .flex-control-paging li a, .flexslider-container .flexslider-blockquote .flex-control-paging li a.flex-active, .flexslider-container .flexslider-blockquote .flex-control-paging li a:hover, .flexslider-container .flexslider-blockquote .flex-control-paging li a, .tagcloud a, #sidebar .widget input.search-form-input, #sidebar .widget_archive select, #sidebar .widget_categories select#cat {border-color: #55606e;} 
+#sidebar .widget a, #sidebar .widget li a, .button, .button.normal, .header-shrink #nav a.selected, .header-shrink #nav a:hover, body a, .entry-title a:hover, #commentform #submit, #sidebar select, #sidebar .widget input.search-form-input, #sidebar .widget_archive select, #sidebar .widget_categories select#cat {color:#55606e;} .container .odd, .odd .entry-content, #page-header, #respond input[type="text"], #respond textarea {background:;} .blog .entry-wrap, #sidebar .widget, .single .entry-content, .commentlist li:last-child {border-bottom: 1px solid ;} #header, .header-shrink, .header, .collapse-menu-bg, #collapse, #preloader, .footer-below {background-color:#242836;} </style>
+    <style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+
+</head>
+
+<body class="error404 custom-background">
+
+	<!-- Mobile menu -->
+	<div class="container">
+
+		<div class="mobile-menu clearfix">
+			<section id="collapse">
+				<div class="collapse-darker">
+
+				<div class="row clearfix">
+					<div class="mobile-menu-inner">
+													<div class="menu-main_menu-container"><ul id="menu-main_menu" class="nav-mobile"><li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://www.webwag.com/">Accueil</a></li>
+<li id="menu-item-1288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1288"><a href="http://www.webwag.com/expertise/">L&rsquo;expertise</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="http://www.webwag.com/references/">Références</a></li>
+<li id="menu-item-939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-939"><a href="http://www.webwag.com/wpns/">WPNS</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="http://blog.webwag.com">Blog</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="/#ww-contact-form">Contact</a></li>
+</ul></div>											</div>
+				</div>
+				</div>
+			</section>
+			<div class="collapse-menu-bg clearfix">
+				<a href="#" id="collapse-menu"><h3>Menu</h3></a>
+			</div>
+		</div>
+
+	<!-- Header fade in navigation -->
+	<div class=" navbar navbar-shrink" id="dynamic">
+		
+
+		<div class="logo">
+							<a href="http://www.webwag.com/" class="clearfix"><img class="logo-image" src="http://tmpwww.webwag.com/wp-content/uploads/2015/06/logo_header.png" alt="" /></a>
+	    		    	</div>
+
+
+		<nav class="row clearfix">
+
+			
+			<div id="nav" class="clearfix">
+				<div class="special clearfix">
+					<!--<a href="#" class="totop"><i class="icon-arrow-up"></i></a>-->
+											<div class="menu-main_menu-container"><ul id="menu-main_menu-1" class="nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://www.webwag.com/">Accueil</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1288"><a href="http://www.webwag.com/expertise/">L&rsquo;expertise</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="http://www.webwag.com/references/">Références</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-939"><a href="http://www.webwag.com/wpns/">WPNS</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="http://blog.webwag.com">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="/#ww-contact-form">Contact</a></li>
+</ul></div>								 	</div>
+			 </div>
+		</nav>	
+	</div> 
+
+
+
+<div id="wrapper" class="clearfix">
+	<div id="cbp-so-scroller" class="cbp-so-scroller">
+		<div id="main"><div id="page-header" class="clearfix">
+	<div class="row">
+				<div class="twelve columns">
+									<div class="archive-title-wrapper clearfix"><h2 class="entry-title">Page Not Found!</h2></div>
+								</div>
+	</div>
+</div>
+
+<div id="content" class="clearfix">
+	<div class="row clearfix">
+
+			<div class="main-column">
+				<div class="content-posts">
+				
+					
+
+								
+					
+				</div>
+			</div>
+			
+			
+			<div class="sidebar-column" id="sidebar">
+						
+																			</div>
+
+	</div>	
+</div>
+
+</div>
+</div>
+</div>
+<!-- Standard footer -->
+<section id="footer">
+
+	<!-- Second footer area -->
+	<div class="footer-below clearfix">
+		<div class="row clearfix">
+
+			<div class="one-half column-first">
+        			
+        			        			
+        								<p class="copyright">
+        				© Webwag Mobile - Tous droits réservés
+					</p>
+	 						</div>
+			<div class="one-half column-last">
+
+	    		<div class="sharing">
+				Suivez <span class="gothambold">notre actu</span> sur 
+		    		<ul class="socials">
+												<li><a class="facebook" href="https://www.facebook.com/Webwag" target="_blank"><i class="icon-social-facebook"></i></a></li>
+						
+												<li><a class="twitter" href="https://twitter.com/webwag" target="_blank"><i class="icon-social-twitter"></i></a></li>
+						
+						
+						
+						
+												
+												
+												
+						
+												
+						
+												
+						
+						
+											</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+</div>
+<!-- Load the scripts -->
+
+
+
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-39606579-6']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+
+	<script type='text/javascript' src='http://www.webwag.com/wp-content/plugins/colio/jquery.easing.1.3.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/plugins/colio/imagesloaded.min.js?ver=3.1.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var colio_options = {"home":"{\"id\":\"colio_viewport_home\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#f0bd2f\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}","all":"{\"id\":\"colio_viewport_all\",\"theme\":\"black\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#f0bd2f\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}","r_f_rences":"{\"id\":\"colio_viewport_r_f_rences\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#f0bd2f\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/plugins/colio/jquery.colio.min.js?ver=1.1'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/plugins/colio/jquery.isotope.min.js?ver=2'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/plugins/colio/init.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/plugins/colio/themes/fancybox/jquery.fancybox.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.webwag.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Envoi en cours ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/js/parallax.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/js/waypoints.min.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/js/jquery.scrollto.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/js/fitvids.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/js/flexslider-min.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/js/scroller.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/lightbox/lightbox.js?ver=4.4.3'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3.exp&#038;ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/themes/Cayse/includes/js/ww-map.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-includes/js/wp-embed.min.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://www.webwag.com/wp-content/uploads/global-js/1441351935-global-javascript.min.js?ver=1.0'></script>
+</body>
+</html>
